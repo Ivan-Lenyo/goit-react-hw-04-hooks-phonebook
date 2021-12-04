@@ -1,0 +1,28 @@
+.form {
+  display: contents;
+}
+
+.label {
+  display: contents;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(69, 105, 151);
+}
+
+.button {
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 5px;
+  min-width: 100px;
+  margin: 5px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(9, 40, 180);
+}
+
+.button:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
